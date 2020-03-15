@@ -1,0 +1,23 @@
+.header{
+    height: 200px;
+    background-color: blue;
+}
+
+
+.main{
+    height: 200px;
+    background-color: tomato;
+    padding: 1px;
+}
+
+#des{
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   border: 20px; 
+}
+
+
+.footer{
+    height: 200px;
+    background-color: yellow;
+}
