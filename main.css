@@ -1,23 +1,86 @@
-.header{
-    height: 200px;
-    background-color: blue;
+body{
+    background-color: #ffff99;
 }
 
 
-.main{
+.header{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto; 
+    padding: 0;
+    position: relative;
+    display: block;
+
+}
+
+#introduction{
+    line-height: 30px;
+    width: 29%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img-introduction{
+    float: right;
+    margin-right: 100px;
+    width: 49%;
     height: 200px;
-    background-color: tomato;
-    padding: 1px;
+    position: relative;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto; 
+    padding: 0;
+    position: relative;
+}
+
+.projects{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    float: left;
+    margin: 22px;
+    padding: 0;
+    border-radius: 10%;
+}
+
+.projects-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
 }
 
 #des{
-   font-family: 'Montserrat', sans-serif;
-   text-align: center;
+    font-family: 'Poppins', sans-serif;
    border: 20px; 
 }
 
 
 .footer{
-    height: 200px;
-    background-color: yellow;
+    width: 100%;
+    height: 20%;
+    margin: 0 auto; 
+    padding: 0;
+    position: relative;
+}
+
+.links{
+    
+}
+
+.links-image{
+    width: 5%;
+    height: 5%;
 }
