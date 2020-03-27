@@ -1,8 +1,15 @@
-body{
+*{
+
+    margin:0;
+
+    padding:0;
+
+ }
+ 
+ body{
     background-color: #ffff99;
 }
-
-
+  
 .header{
     width: 100%;
     height: 300px;
@@ -84,3 +91,113 @@ body{
     width: 5%;
     height: 5%;
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .header{
+        width: 100%;
+        height: 250px;
+        margin: 0 ; 
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+
+    #introduction{
+        line-height: 30px;
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        float: left;
+        padding: 10px;
+        
+    }
+    
+
+    #img-introduction{
+        width: 200px;
+        height: 200px;
+        position: absolute; 
+        float: right;
+        padding: 10px;
+        margin-top: 5px;
+        margin-left: 47%;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        border-radius: 50%;
+
+  }
+    .main{
+        position: static;
+        width: 100%;
+        height: 600px;
+        margin: 0 ; 
+        padding: 0;
+}
+
+    .projects{
+        width: 30%;
+        height: 30%;
+        float: left;
+        margin-top: 70px;
+        margin-left: 40px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        border-radius: 10%;
+}
+
+.projects-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+    #des{
+        font-family: 'Poppins', sans-serif;
+    border: 20px; 
+    float: left;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 5px;
+}
+
+
+    .footer{
+        position: static;
+        width: 100%;
+        height: 70px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        padding: 10px;
+
+}
+
+    .links{
+        float: left;
+        border-radius: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        margin-right: 0%;
+    }
+
+    .links-image{
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+
+
+  }
