@@ -1,203 +1,120 @@
 *{
-
     margin:0;
-
     padding:0;
-
  }
  
  body{
-    background-color: #ffff99;
+    background-color: #ffffb3;
 }
   
 .header{
     width: 100%;
-    height: 300px;
-    margin: 0 auto; 
-    padding: 0;
-    position: relative;
-    display: block;
-
+    height: 29%;
+    display: flex;
+    justify-content: space-around;
 }
 
-#introduction{
-    line-height: 30px;
-    width: 29%;
-    height: auto;
+.introduction {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    width: 150px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-top: 6%;
 }
 
-#img-introduction{
-    float: right;
-    margin-right: 100px;
-    width: 49%;
+.img-introduction{
     height: 200px;
-    position: relative;
-    padding: 0;
-
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
 .main{
     width: 100%;
-    height: 500px;
-    margin: 0 auto; 
-    padding: 0;
-    position: relative;
+    height: 59%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .projects{
-    width: 30%;
-    height: 30%;
-    position: relative;
-    float: left;
-    margin: 22px;
-    padding: 0;
-    border-radius: 10%;
+    width: 20%;
+    height: 180px;
+    display: flex;
+    padding: 20px;
 }
 
 .projects-image{
-    width: 100%;
-    height: 100%;
     border-radius: 10%;
+    flex-basis: 20%;
 }
 
-#des{
+.des{
     font-family: 'Poppins', sans-serif;
-   border: 20px; 
+    border: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 
 .footer{
-    width: 100%;
-    height: 20%;
-    margin: 0 auto; 
-    padding: 0;
-    position: relative;
+ display: flex;
+ justify-content: space-around;
 }
 
 .links{
-    
+    border-radius: 25%;
 }
 
 .links-image{
-    width: 5%;
-    height: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
 }
 
 
-@media screen and (max-width: 600px) {
-    body {
-        background-color: cornflowerblue;
-    }
+@media (max-width: 767px) {
 
-    .header{
+    .main{
         width: 100%;
-        height: 250px;
-        margin: 0 ; 
-        padding: 0;
-        position: relative;
-        display: block;
+        height: 59%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
-    #introduction{
-        line-height: 30px;
-        height: auto;
+    .introduction {
         font-family: 'Montserrat', sans-serif;
-        width: 150px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        float: left;
-        padding: 10px;
-        
+        margin: 9%;
     }
     
-
-    #img-introduction{
-        width: 200px;
-        height: 200px;
-        position: absolute; 
-        float: right;
-        padding: 10px;
-        margin-top: 5px;
-        margin-left: 47%;
-        margin-bottom: 0px;
-        margin-right: 0px;
+    .img-introduction{
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
-
-  }
-    .main{
-        position: static;
-        width: 100%;
-        height: 600px;
-        margin: 0 ; 
-        padding: 0;
-}
-
-    .projects{
-        width: 30%;
-        height: 30%;
-        float: left;
-        margin-top: 70px;
-        margin-left: 40px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-        padding: 10px;
-        border-radius: 10%;
-}
-
-.projects-image{
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
-}
-    #des{
-        font-family: 'Poppins', sans-serif;
-    border: 20px; 
-    float: left;
-    margin-top: 5%;
-    margin-left: 0%;
-    margin-bottom: 0%;
-    margin-right: 0%;
-    padding: 5px;
-}
-
-
-    .footer{
-        position: static;
-        width: 100%;
-        height: 70px;
-        left: 0px;
-        bottom: 0px;
-        right: 0px;
-        padding: 10px;
-
-}
-
-    .links{
-        float: left;
-        border-radius: 20px;
         margin-top: 5%;
-        margin-left: 5%;
-        margin-bottom: 2%;
-        margin-right: 0%;
+    }
+    
+    .projects{
+        width: 10%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        flex-basis: 29%;
+    }
+
+
+    .projects-image{
+        border-radius: 10%;
+        height: 100%;
+        width: 100%;
     }
 
     .links-image{
         width: 50px;
         height: 50px;
-        padding: 5px;
-        border-radius: 20px;
+        border-radius: 25%;
     }
-
-
-
-  }
+            
+}
