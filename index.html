@@ -1,56 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Index</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bebas+Neue|Francois+One|Montserrat|Poppins|Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163306516-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-163306516-1');
-    </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>Todo List</title>
 </head>
 <body>
-    <div class="header">
-        <p class="introduction animated flipInY"> Hi<br>
-            Welcome to this favoulus website.<br>
-            This is a personal portfolio website.<br>
-            Come with me in a fantastic esperience.<br>
-
-        </p>
-
-        <img class="img-introduction animated rollIn" src="jet-image.jpg">
+    
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">ALL</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list">
+            <div class="todo">
+                <li></li>
+            </div>
+            
+        </ul>
     </div>
-    <div class="main">
-        <div class="projects"><img src="cono.jpg" class="projects-image"> </div>
-        <div class="projects"><img src="cono.jpg" class="projects-image"></div>
-        <div class="projects"><img src="cono.jpg" class="projects-image"></div>
-        <div class="projects"><img src="cono.jpg" class="projects-image"></div>
-        <div class="projects"><img src="cono.jpg" class="projects-image"></div>
-        <div class="projects"><img src="cono.jpg" class="projects-image"></div>
-        <p class="des animated flipInY" align="center">It's true!<br>
-            for the moment there are no personal projects but this situation will change very soon.<br>
-             If you want follow me on these accounts!</p>
-    </div>
-    <div class="footer">
-        <a href="https://www.instagram.com/d_ra_go_s/?hl=it" class="links"><img class="links-image" src="insat.jfif"></a>
-        <a href="https://github.com/stopflunky"class="links"><img class="links-image" src="gitHub-icon.png"></a>
-        <a href="https://www.linkedin.com/in/octavian-dragos-russo-a518a7198/"class="links" style=" width: 100px; height: 100px; border-radius: 15%;"><img class="links-image" src="linkedin.png"></a>
-        <a href="https://www.fiverr.com/dragosss?up_rollout=true#"class="links"><img class="links-image" src="fiverr.png" ></a>
-    </div> 
 
+
+
+    <script src="app.js"></script>
 </body>
 </html>
